@@ -1,0 +1,41 @@
+{
+  "name": "d-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "build:all": "rm -rf node_modules package-lock.json .next && npm i && next build",
+    "now-build": "npm run build",
+    "start": "next start",
+    "now-start": "npm start",
+    "tsc": "tsc",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@zeit/next-typescript": "^1.1.1",
+    "ethers": "^4.0.27",
+    "next": "^8.1.1-canary.14",
+    "patch-package": "^6.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-jsx": "^3.2.1",
+    "web3": "^1.0.0-beta.52"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.6",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "16.0.11",
+    "@types/styled-jsx": "^2.2.8",
+    "@types/web3": "^1.0.18",
+    "cz-conventional-changelog": "^2.1.0",
+    "node-loader": "^0.6.0",
+    "typescript": "3.2.4"
+  },
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
