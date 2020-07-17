@@ -32,7 +32,7 @@
     "import-sort-parser-4catalyzer": "^4.0.1",
     "import-sort-style-module": "^4.2.0",
     "less": "^3.8.0",
-    "lodash": "^4.15.0",
+    "lodash": "^4.17.19",
     "node-sass": "^4.9.2",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.0",
